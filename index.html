@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f8fa">
+    <meta name="description" content="A sample of the Greek driving theory questions, answers and images dataset.">
+    <title>Greek KOK Dataset Demo</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <header class="app-header">
+      <a class="brand" href="./" data-action="home">
+        <span class="brand-icon" aria-hidden="true">⏲</span>
+        <span>Greek KOK Dataset Demo</span>
+      </a>
+      <div class="header-actions">
+        <button class="icon-button" type="button" data-action="theme" aria-label="Switch colour theme" title="Switch colour theme">◐</button>
+        <button class="icon-button" type="button" data-action="reset" aria-label="Reset progress" title="Reset progress">↺</button>
+        <div class="progress-ring" id="progress-ring" role="progressbar" aria-label="Overall progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <span id="progress-percent">0%</span>
+        </div>
+      </div>
+    </header>
+    <main id="app" class="page" tabindex="-1"></main>
+    <noscript>This app needs JavaScript enabled to run the quiz.</noscript>
+  </body>
+</html>
